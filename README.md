@@ -13,7 +13,7 @@ The inputs to the code are:
 
 ```-l, --loss```: Integer controling the loss function to use during training (0 for 'max' and 1 for 'reconstruction'). Default value: 0.
 
-The script to obtain Fig. 2 in the paper attached below can be found under the plot_fig_2/ directory.
+The script to obtain Fig. 2 in the paper attached below can be found under the plot_fig_2/ directory. That script is a standalone script that can be run without additional simulation parameters.
 
 ## Additional information
 If you decide to use the source code for your research, please make sure to cite our paper:
