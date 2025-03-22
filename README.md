@@ -7,11 +7,11 @@ The simulation parameters to train and test different scenarios are located in t
 
 The inputs to the code are:
 
--g, --gainphase: Binary flag controlling whether we consider gain-phase impairments (0 for no impairments and 1 otherwise). Default value: 0.
+```-g, --gainphase```: Binary flag controlling whether we consider gain-phase impairments (0 for no impairments and 1 otherwise). Default value: 0.
 
--s, --seed: Integer controling the seed to use in the simulations. Default value: 10.
+```-s, --seed```: Integer controling the seed to use in the simulations. Default value: 10.
 
--l, --loss: Integer controling the loss function to use during training (0 for 'max' and 1 for 'reconstruction'). Default value: 0.
+```-l, --loss```: Integer controling the loss function to use during training (0 for 'max' and 1 for 'reconstruction'). Default value: 0.
 
 The script to obtain Fig. 2 in the paper attached below can be found under the plot_fig_2/ directory.
 
